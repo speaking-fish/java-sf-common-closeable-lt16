@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 /**
  * @since 1.5
  * 
- * checks close() dynamically for correctly run in 1.5 environment (for ex: java.sql.*)
+ * checks close() dynamically for correctly run in lesser than 1.7 environment (for ex: java.sql.*)
  * checks 1.7 AutoCloseable dynamically for correctly run in 1.7 environment
  *
  */
